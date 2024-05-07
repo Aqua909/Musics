@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const { Client, Message, MessageEmbed, Collection } = require("discord.js");
+const keep_alive = require(`./keep_alive.js`)
 const colors = require("colors");
 const fs = require("fs");
 const emojis = require("./config/emojis.json")
